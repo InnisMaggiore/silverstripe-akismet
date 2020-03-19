@@ -1,5 +1,5 @@
 {
-	"name": "innis-maggiore/akismet",
+	"name": "innis-maggiore/silverstripe-akismet",
 	"description": "Akismet antispam module for Silverstripe. Forked to create reporting capability.",
 	"type": "silverstripe-vendormodule",
 	"keywords": ["silverstripe", "spam", "akismet"],
