@@ -1,6 +1,6 @@
 {
-    "name": "silverstripe/akismet",
-    "description": "Akismet antispam module for Silverstripe",
+    "name": "innis-maggiore/akismet",
+    "description": "Akismet antispam module for Silverstripe. Forked for reporting purposes",
     "type": "silverstripe-module",
     "keywords": [
         "silverstripe",
@@ -15,7 +15,7 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/silverstripe/silverstripe-akismet/issues"
+        "issues": "https://github.com/InnisMaggiore/silverstripe-akismet/issues"
     },
     "require": {
         "silverstripe/cms": "~3.1",
