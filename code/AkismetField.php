@@ -127,6 +127,8 @@ class AkismetField extends FormField
             ));
             $formName = $this->getForm()->FormName();
             Session::set("FormInfo.{$formName}.errors", $errors);
+            $values = $this->getSpamMappedData();
+            $this->extend('onSpamIdentified', $values);
             return true;
         } else {
             // Mark as spam
